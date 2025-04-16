@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+input:focus{
+background-color: red;
+}
+h1{
+    background-color: red;
+}
+p{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+table{
+    border: 2px solid;
+    border: 2px dotted;
+    border: 2px double;
+}
+table td{
+    border: 2px solid;
+    border-color: blue red yellow green;
+}

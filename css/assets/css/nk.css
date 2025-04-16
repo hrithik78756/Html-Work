@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    height:800px;
+}
+
+.nk-img{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtYYo5t91q-5NLtEtMwmFqmo2OLqQZRIA0Xw&s );
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-size: cover;
+    background-position: bottom;
+}
+.clip-img{
+    background-color: red;
+    border: 5px dotted blue; 
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2kiDHL8o_oOlwyRjhMxJ02U_DHYIHZJe0Sw&s);
+   background-clip: content-box;
+   background-attachment: fixed;
+}
+
+
