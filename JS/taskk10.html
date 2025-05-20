@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>age</title>
+</head>
+<body>
+    <script>
+        let age=parseFloat(prompt("enter your age"));
+
+        switch(true){
+            case (age>1 && age<=18):
+                document.writeln("you are child");
+         break;
+            case (age>18 && age<=50):
+                document.writeln("you are adult");
+         break;
+            case (age>50):
+                document.writeln("you are old");
+         break;
+          default:
+            document.writeln("you are not born yet");
+            }
+    </script>
+</body>
+</html>

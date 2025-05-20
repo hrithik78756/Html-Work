@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let name=prompt("Enter your Name");
+        let input = prompt("Enter your born year");
+        let age = 2025 - input;
+        console.log(age)
+
+        if (input===' ') {
+            alert("please enter your born year!");
+        }
+        else {
+            if (age > 18) {
+                document.writeln("Hello"+"",name);
+                document.writeln("you are eligiable to drive")
+            }
+            else {
+                document.writeln("Hello"+"",name);
+                document.writeln("you are not eligiable to drive")
+            }
+        }
+    </script>
+</body>
+
+</html>

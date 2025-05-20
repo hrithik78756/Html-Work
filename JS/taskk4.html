@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marks</title>
+</head>
+<body>
+    <script>
+         let English = parseFloat(prompt("Enter a english marks"));
+        let Maths = parseFloat(prompt("Enter maths marks"));
+        let Hindi = parseFloat(prompt("Enter a hindi marks"));
+        let Gujarati = parseFloat(prompt("Enter a gujarati marks"));
+        let total = English + Maths + Hindi + Gujarati;
+        document.writeln("the total out of the 300 is: ", total);
+        Grade = ((total / 400) * 100)
+                document.writeln("your percentage  is: ", Grade);
+
+       
+        switch(true){
+            case (Grade>=90):
+            document.writeln("First class");
+           break;
+            case (Grade>=75):
+            document.writeln("second class");
+           break;
+            case (Grade>=50):
+            document.writeln("third class");
+           break;
+            case (Grade>=33):
+            document.writeln("okok");
+           break;
+           default:
+            document.writeln("faill");
+        }
+    </script>
+</body>
+</html>
