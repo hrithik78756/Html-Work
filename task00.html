@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task00</title>
+</head>
+
+<body>
+    <h2>grade calcucator</h2>
+    <script>
+        let English = parseFloat(prompt("Enter a english marks"));
+        let Maths = parseFloat(prompt("Enter maths marks"));
+        let Hindi = parseFloat(prompt("Enter a hindi marks"));
+        let Gujarati = parseFloat(prompt("Enter a gujarati marks"));
+        let total = English + Maths + Hindi + Gujarati;
+        document.writeln("the total out of the 300 is: ", total);
+        Grade = ((total / 400) * 100)
+        if (English > 100) {
+            alert("invalid marks");
+        }
+        else if (Maths > 100) {
+            alert("invalid marks");
+        }
+        else if (Hindi > 100) {
+            alert("invalid marks")
+        }
+        else if (Gujarati > 100) {
+            alert("invalid marks")
+        }
+        else if (Grade <= 33) {
+            alert("fail")
+        }
+        else if (Grade > 39 && Grade <= 50) {
+            document.writeln("C");
+            document.writeln("your percentage is" +" ",Grade,"%");
+        }
+        else if (Grade > 50 && Grade <= 60) {
+            document.writeln("C+");
+             document.writeln("your percentage is" +" ",Grade,"%");
+        }
+        else if (Grade > 55 && Grade <= 70) {
+            document.writeln("B"); 
+            document.writeln("your percentage is" +" ",Grade,"%");
+        }
+        else if (Grade > 70 && Grade <= 85) {
+            document.writeln("B+");
+             document.writeln("your percentage is" +" ",Grade,"%");
+        }
+        else if (Grade > 76 && Grade <= 88) {
+            document.writeln("A");
+            document.writeln("your percentage is" +" ",Grade,"%")
+        }
+        else  {
+            document.writeln("A+");
+            document.writeln("your percentage is" +" ",Grade,"%");
+        }
+
+    </script>
+</body>
+
+</html>
