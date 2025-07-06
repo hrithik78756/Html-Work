@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+/* Header */
+.header {
+    background-color: #111;
+    padding: 15px 0;
+}
+
+.header .container {
+    width: 100%;
+    max-width: 1700px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login a {
+    color: white;
+    border: 1px solid white;
+    padding: 6px 14px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Section 1 */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+    background-color: #fffaf5;
+}
+
+.center-content {
+    max-width: 700px;
+    margin: auto;
+}
+
+.main-logo {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+}
+
+.underline {
+    width: 120px;
+    height: 6px;
+    background-color: orange;
+    margin: 10px auto 20px;
+    border-radius: 4px;
+}
+
+.hero p {
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background-color: orange;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.corner-shape {
+    position: absolute;
+    bottom: 0;
+    width: 250px;
+    z-index: 0;
+}
+
+.corner-shape.left {
+    left: 0;
+}
+
+.corner-shape.right {
+    right: 0;
+}
+
+
+
+/* Section Two */
+.section-two {
+    padding: 80px 20px;
+    background-color: #fff;
+}
+
+.section-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-text {
+    flex: 1;
+    min-width: 300px;
+    max-width: 550px;
+}
+
+.section-text h2 {
+    font-size: 28px;
+    color: #111;
+    margin-bottom: 15px;
+}
+
+.section-text p {
+    color: #555;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.video-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.section-text .btn.orange {
+    background-color: orange;
+}
+
+/* Right Side Image */
+.section-image {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.section-image img {
+    max-width: 100%;
+    width: 400px;
+}
